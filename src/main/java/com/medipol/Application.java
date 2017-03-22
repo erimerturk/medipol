@@ -10,8 +10,8 @@ public class Application {
 
         System.out.println("hello world!");
 
-        System.out.println("contains A : " + (new Calculation().containsA("medipol") == false) );
-        System.out.println("contains A : " + (new Calculation().containsA("gergedan") == true) );
+        System.out.println("contains A for medipol : " + (new Calculation().containsA("medipol")) );
+        System.out.println("contains A gergedan : " + (new Calculation().containsA("gergedan")) );
 
         final ArrayList<String> inputs = new ArrayList<String>();
         inputs.add("armut");
